@@ -1,11 +1,15 @@
 
+
 $theme-colors: (
-  "primary": #521751  
+  "primary": #3292a6  
 );
+
+$blue : #3292a6 !default; 
+
 
 
 //$warning : #521751 !default; 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-//@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables";
 

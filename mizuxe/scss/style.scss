@@ -19,8 +19,7 @@ body {
 #showcase {
     position: relative;
     background: url('../img/mountains.jpg');
-    min-height: 600px;
-     
+    min-height: 600px;     
     .primary-overlay {
          background: $primary-overlay;
          position: absolute;
@@ -30,4 +29,21 @@ body {
          height: 100%;
      }
 }
+
+.info-header {
+     width: 50%;
+     margin : auto; 
+     border-bottom: 1px #ddd solid;
+}
  
+@media ( max-width :  768px){
+    #showcase {
+        min-height : 400px;  
+        h1 {
+            font-size: 3rem;
+        }
+    }
+    .mb-resp {
+        margin-bottom: 1rem;
+    }
+}
